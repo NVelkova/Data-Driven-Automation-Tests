@@ -149,7 +149,7 @@ namespace Data_Driven_Automation_Tests
             result.Click();
 
             //Assert
-            Assert.That("Result: 9.9", Is.EqualTo(resultField.Text));
+            Assert.That(resultField.Text, Is.EqualTo("Result: 9.9"));
         }
         
         //valid data
